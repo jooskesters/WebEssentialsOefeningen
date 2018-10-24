@@ -1,0 +1,16 @@
+body {
+    font-family: Verdana,sans-serif;
+    color: white;
+    text-align: center;
+}
+tr th {
+    background-color: blue;
+}
+
+tr td{
+    background-color: lightskyblue;
+}
+
+tfoot td{
+    background-color: blue;
+}

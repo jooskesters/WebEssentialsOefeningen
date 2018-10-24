@@ -1,0 +1,54 @@
+body{
+    background: #ffA777;
+}
+
+header{
+    color: deepskyblue;
+    text-align: center;
+    clear: both;
+
+}
+
+footer{
+    display: inline-block;
+    float: bottom;
+    text-align: center;
+    color: deepskyblue;
+    position: fixed;
+    bottom: 5%;
+    left: 42%;
+    overflow: visible;
+    background-color: brown;
+}
+
+
+.knopperts{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 200px;
+
+}
+
+p{
+    display: block;
+    width: 23vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    background-color: deepskyblue;
+    height: 23vw;
+    float: left;
+}
+
+p:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+}
+
+.clearfix:after{
+    visibility: hidden;
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+}

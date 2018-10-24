@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Garamond, sans-serif;
+    background-color: #ccdddd;
+}
+
+main, header, nav, nav ul, article, aside {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 auto;
+
+}
+
+aside {
+    width:28%;
+    padding-left:1%;
+
+}
+
+footer {
+    margin-top: 2em;
+}
+
+header {
+    border-bottom: black 3px solid;
+    border-top: black 3px solid;
+}
+
+
+header, nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+header, footer {
+    text-align: center;
+}
+
+nav li:hover{
+    background-color: #c2dfde;
+}
+
+nav li {
+    border: 4px solid black;
+    vertical-align: middle;
+    padding-top: 0.8em;
+}
+
+nav a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+
+article{
+    max-width: 100%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+aside h3 {
+    border: 4px solid red;
+    padding: 4px;
+    margin: 4px;
+}
+
+aside p {
+    padding: 8px;
+    margin: 0;
+}
+
+nav li:nth-child(1) {
+    border-color: red;
+}
+
+nav li:nth-child(2) {
+    border-color: dodgerblue;
+}
+
+nav li:nth-child(3) {
+    border-color: purple;
+}
+
+nav li:nth-child(4) {
+    border-color: darkseagreen;
+}
+
+nav li:nth-child(5) {
+    border-color: darkorange;
+}
+
+nav li:nth-child(6) {
+    border-color: yellow;
+}
+
+nav li:nth-child(7) {
+    border-color: deeppink;
+}
+
+nav li:nth-child(8) {
+    border-color: grey;
+}
+
+/* vanaf schermgrootte 1200 pixel*/
+@media screen and (min-width: 1200px){
+
+    article{
+        max-width: 60%;
+    }
+
+    main {
+        width: 1200px;
+    }
+
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        display: inline;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0 ;
+        list-style-type: none;
+    }
+
+    li{
+        display: inline-block;
+        width: 12%;
+        margin: 5px 1px
+    }
+
+    aside{
+        top: 100px;
+        float: right;
+        width: 315px;
+    }
+
+    footer{
+        clear: both;
+    }
+}
+
+/* vanaf schermgrootte 800 pixel*/
+@media screen and (max-width: 1199px){
+    article{
+        max-width: 60%;
+    }
+
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        display: inline;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0 ;
+        list-style-type: none;
+    }
+
+    li{
+        display: inline-block;
+        width: 24%;
+        margin: 2px 1px
+    }
+
+    aside {
+        top: 60px;
+        float: right;
+        width: 310px;
+    }
+
+    footer{
+        clear: both;
+    }
+
+
+
+}
+
+/* Tussen schermgrootte 400 en 800 pixel */
+@media screen and (max-width: 799px){
+    article{
+        width: 100%;
+    }
+
+    main{
+        width: auto;
+    }
+
+    nav {
+        width: 100%;
+        box-sizing: border-box;
+        display: inline;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0 ;
+        list-style-type: none;
+    }
+
+    li{
+        display: inline-block;
+        width: 48%;
+        margin: 2px 1px
+    }
+
+    article{
+        width: 100%;
+        display: inline-block;
+    }
+
+    aside {
+        top: 60px;
+        float: left;
+        width: 100%;
+        clear: both;
+    }
+
+    footer{
+        clear: both;
+    }
+
+}
+
+@media screen and (max-width: 399px){
+    nav {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+}

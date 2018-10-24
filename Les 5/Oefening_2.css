@@ -1,0 +1,101 @@
+body{
+    background-color: lightseagreen;
+}
+
+.fotoaudiachter{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+.audi_sportback{
+    float: left;
+    color: white;
+    background-color: cadetblue;
+    margin-right: 10px;
+    height: 148px;
+    width: 50%;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+
+}
+
+.audi_sportback h1{
+    border-bottom: solid 2px white;
+    clear: both;
+}
+
+.audi_sportback p {
+    margin: 0px;
+}
+
+.menubalk{
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 500px;
+    width: 150px;
+    float: left;
+    border: 2px solid black;
+    clear: left;
+    margin-bottom: 10px;
+}
+
+.menubalk p{
+    padding-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+#menu{
+    padding-left: 5px;
+    border-bottom: white 2px solid ;
+}
+
+#zwevende{
+    margin-top: 20px;
+}
+
+.main2{
+    float: left;
+    width: 600px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+    padding: 0px 10px;
+    height: 500px;
+}
+
+#streepke{
+    border-bottom: white 2px solid;
+}
+
+#special1{
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+
+.clearfix:after{
+    content: "*";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+#linkse{
+    float: left;
+    max-width: 300px;
+}
+
+
+#right{
+    float: right;
+    width: 230px;
+    height: 150px;
+    margin-right: 30px;
+}

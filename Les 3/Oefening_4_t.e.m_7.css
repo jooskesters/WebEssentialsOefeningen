@@ -1,0 +1,36 @@
+
+body {
+    background: #d9ddd7;
+    font-family: Verdana, serif, Arial;
+    }
+
+
+#header{
+    color: darkgreen;
+}
+
+p {
+
+    padding: 20px;
+    background: #6a7689;
+    color: white;
+}
+a:visited{
+   color: white;
+}
+a:hover {
+    color: green;
+}
+
+.highlight {
+        margin-left: 20%;
+        margin-right: 20%;
+        color: yellow;
+        border: solid 2px yellow;
+        text-align: center;
+}
+
+.link {
+    color: white;
+}
+

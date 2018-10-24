@@ -1,0 +1,86 @@
+body
+{
+    font-size: 11pt;
+    font-family: sans-serif;
+    background-color: slategray;
+}
+
+.Playlist
+{
+    width: 350px;
+    border: solid 3px;
+    margin: 20px;
+    background-color: blue;
+}
+
+a:visited
+{
+    color: white;
+}
+
+a:hover
+{
+    color: orange;
+}
+
+.Festivals a
+{
+    border: white solid 3px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.Festivals
+{
+    margin-bottom: 20px;
+}
+
+.Events
+{
+    margin: 15px 5px 20px 10px;
+
+}
+#pkp
+{
+    border-color: red;
+    background: deepskyblue;
+}
+
+#Werchter
+{
+    border: 10px red;
+    background: orange;
+}
+
+#Tomorrowland
+{
+    border: 10px red;
+    background: pink;
+}
+
+#Graspop
+{
+    border: 10px red;
+    background: greenyellow;
+}
+
+#Dour
+{
+    border: 10px red;
+    background: yellow;
+}
+
+
+table th, td
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table.albums
+{
+    border-collapse: collapse;
+    background-color: darkblue;
+    color: white;
+}

@@ -1,0 +1,41 @@
+body{
+    background-color: #000000;
+    text-align: center;
+}
+.Sounds {
+    text-align: center;
+}
+
+#button_1{
+    border: yellow solid;
+    border-radius: 20px;
+}
+
+
+#button_2{
+    border: yellow solid;
+
+    border-radius: 20px;
+}
+
+#button_3{
+    border: yellow solid;
+    border-radius: 20px;
+}
+
+#button_4{
+    border: yellow solid;
+    border-radius: 20px;
+}
+
+
+#Soundboard{
+    color: yellow;
+    text-align: center;
+
+}
+.Sounds article{
+    margin: 0 30%;
+    padding: 5px;
+
+}

@@ -1,0 +1,54 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url("../bestanden_oefeningen_week3/Images/hout.jpg");
+    width: 99%;
+    height: 99%
+}
+
+table.bord{
+    border: solid saddlebrown 4px;
+    float: left;
+    margin-right: 100px;
+    border-collapse: collapse;
+}
+
+table.bord td{
+    background-image: url("../bestanden_oefeningen_week3/Images/zwarte-marmer.jpg");
+    text-align: center;
+
+}
+
+
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background-image: url("../bestanden_oefeningen_week3/Images/witte-marmer.jpg");
+    width: 50px;
+    height: 50px;
+}
+
+aside
+{
+    background-image: url(../bestanden_oefeningen_week3/Images/witte-marmer.jpg);
+    border: solid saddlebrown 4px;
+    width: 17%;
+    height: 380px;
+    float: right;
+    padding: 5px 15px;
+    overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

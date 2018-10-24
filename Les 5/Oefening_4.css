@@ -1,0 +1,25 @@
+body{
+    background-color: brown;
+    color: white;
+}
+
+ul{
+    background-color: crimson;
+    color: white;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+li:hover{
+    color: green;
+    text-decoration: underline;
+}

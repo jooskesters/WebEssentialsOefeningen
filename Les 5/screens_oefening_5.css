@@ -1,0 +1,46 @@
+body{
+    background-color: steelblue;
+
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 22px;
+    margin-top: 10%;
+    margin-left: 35px;
+    margin-right: auto;
+}
+
+
+a.eerste{
+    float: left;
+    margin-left: 18%;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+a.tweede{
+    float: left;
+    margin-top: 50px;
+}
+
+a.derde{
+    float: left;
+    clear: left;
+    margin-left: 18%;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+
+a.vierde{
+    float: left;
+    margin-top: 100px;
+
+}
+
+
